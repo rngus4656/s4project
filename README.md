@@ -19,4 +19,4 @@ runwayml의 레포지토리에서 깃 클론한 파일을 토대로 만들었습
 
 로컬에서 이미지 변환시 cuda 메모리부족현상이 일어나서 img2img.py 관련 모든 부분을 cpu로 바꿨습니다
 
-사전학습모델은 https://huggingface.co/dreamlike-art/dreamlike-anime-1.0/resolve/main/dreamlike-anime-1.0.ckpt 을 사용했습니다
+사전학습모델은 https://huggingface.co/dreamlike-art/dreamlike-anime-1.0/resolve/main/dreamlike-anime-1.0.ckpt 을 사용했습니다.
