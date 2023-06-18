@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Processing</title>
+</head>
+<body>
+
+<h1>A2U</h1>
+
+<form action="/" method="post" enctype="multipart/form-data">
+    <label for="file">your image:</label>
+    <input type="file" id="file" name="file" accept="image/*">
+    <br><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <br><br>
+    <label for="strength">노이징 강도 ( 1에 가까울수록 원본이미지 상실 ):</label>
+    <input type="range" id="strength" name="strength" min="0" max="1" step="0.01" oninput="strengthValue.value = this.value">
+    <output name="strengthValue" id="strengthValue">0</output>
+    <br><br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

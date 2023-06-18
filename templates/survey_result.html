@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Survey Results</title>
+</head>
+<body>
+    <h1>Survey Results</h1>
+    <ul>
+    {% for result in results %}
+        <li>
+            <p>Satisfaction: {{ result[1] }}</p>
+            <p>Willingness: {{ result[2] }}</p>
+            <p>Feedback: {{ result[3] }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+</body>
+</html>

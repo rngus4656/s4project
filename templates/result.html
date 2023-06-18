@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Processing Result</title>
+</head>
+<body>
+    <h1>Image Processing Result</h1>
+
+    <img src="{{ url_for('static', filename=image_path) }}" alt="Result Image">
+    <br><br>
+
+    <a href="{{ url_for('survey') }}" class="btn btn-primary">Go to Feedback!!!</a>
+
+</body>
+</html>
